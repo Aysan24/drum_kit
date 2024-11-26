@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>JS Drum Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Drumkit.css">
+</head>
+<body>
+    <div class="buttons">
+        <div data-key="65" class="Button">
+            <kbd>A</kbd>
+            <div class="audio">CLAP</div>
+        </div>
+        <div data-key="83" class="Button">
+            <kbd>S</kbd>
+            <div class="audio">HIHAT</div>
+        </div>
+        <div data-key="68" class="Button">
+            <kbd>D</kbd>
+            <div class="audio">KICK</div>
+        </div>
+        <div data-key="70" class="Button">
+            <kbd>F</kbd>
+            <div class="audio">OPENHAT</div>
+        </div>
+        <div data-key="71" class="Button">
+            <kbd>G</kbd>
+            <div class="audio">BOOM</div>
+        </div>
+        <div data-key="72" class="Button">
+            <kbd>H</kbd>
+            <div class="audio">RIDE</div>
+        </div>
+        <div data-key="74" class="Button">
+            <kbd>J</kbd>
+            <div class="audio">SNARE</div>
+        </div>
+        <div data-key="75" class="Button">
+            <kbd>K</kbd>
+            <div class="audio">TOM</div>
+        </div>
+        <div data-key="76" class="Button">
+            <kbd>L</kbd>
+            <div class="audio">TINK </div>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/clap/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink/tink.wav"></audio>
+
+    <script src="Drumkit.js"></script>
+</body>    
+</html>
